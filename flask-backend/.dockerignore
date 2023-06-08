@@ -1,0 +1,13 @@
+# Ignore files and directories commonly excluded in Docker builds
+
+# Files
+.dockerignore
+.gitignore
+.DS_Store
+
+# Directories
+.git
+.idea
+.vscode
+node_modules
+venv
