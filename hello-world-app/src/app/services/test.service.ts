@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class TestService {
-private url = 'http://localhost:5000/api';
+private url = 'http://localhost:5000/';
    
   constructor(private httpClient: HttpClient) { }
   
